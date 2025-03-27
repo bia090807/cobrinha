@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a1a;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(138, 43, 226, 0.5);
+}
+
+canvas {
+    background-color: #000;
+    border: 2px solid #8a2be2;
+    box-shadow: 0px 0px 10px rgba(138, 43, 226, 0.7);
+}
+
+footer {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #111;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Estilo do botão de reiniciar */
+#restartButton {
+    background-color: #8a2be2; /* Cor roxa para combinar com o tema */
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    margin-top: 20px;
+    display: none; /* Inicialmente escondido */
+}
+
+#restartButton:hover {
+    background-color: #7a1db4; /* Tom mais escuro quando o mouse passa por cima */
+    transform: scale(1.05); /* Leve aumento no tamanho ao passar o mouse */
+}
+
+#restartButton:focus {
+    outline: none;
+}
